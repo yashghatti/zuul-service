@@ -10,7 +10,7 @@ pipeline {
         stage('Gradle Build') {
             steps {
                 echo '==> Gradle Build'
-                sh './gradle build'
+                sh './gradlew build'
             }
         }
         stage('Docker Build') {
