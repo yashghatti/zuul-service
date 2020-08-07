@@ -10,5 +10,5 @@ zuul:
     cockpit_internal:
       service-id: cockpit
       path: /cockpit/**
-      url: http://127.0.0.1:9090
+      url: http://127.0.0.1:9090/admin
   ssl-hostname-validation-enabled: false
