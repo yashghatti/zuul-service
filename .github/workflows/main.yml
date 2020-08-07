@@ -30,3 +30,4 @@ jobs:
         user: "github"
         token: ${{ secrets.JENKINS_API_TOKEN }}
         job: "zuul-service"
+      
