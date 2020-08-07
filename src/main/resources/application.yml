@@ -6,9 +6,9 @@ zuul:
     cockpit:
       service-id: cockpit
       path: /admin/**
-      url: http://127.0.0.1:9090/
+      url: http://127.0.0.1:9090
     cockpit_internal:
       service-id: cockpit
       path: /cockpit/**
-      url: http://127.0.0.1:9090/
+      url: http://127.0.0.1:9090
   ssl-hostname-validation-enabled: false
