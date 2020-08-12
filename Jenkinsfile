@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Docker Run Container') {
             steps {
-                sh 'sudo podman run -p 80:80 --name zuul-service --detach zuul-service'
+                sh 'sudo podman run -p 80:80 --name zuul-service --detach --network=host zuul-service'
             }
         }
     }
